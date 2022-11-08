@@ -1,0 +1,22 @@
+.screen-face{
+    display: grid;
+    grid-template-rows: auto auto ;
+    grid-template-columns: auto auto;
+    align-items:center;
+    justify-content:center;
+}
+
+.screen__mouth{
+    grid-column: 1/3;
+}
+
+.screen-speech{
+    background: white;
+    color: black;
+    border-radius: var(--s-xs);
+    padding: var(--s-sm) 
+}
+
+.screen__quote{
+    font-style:italic;
+}

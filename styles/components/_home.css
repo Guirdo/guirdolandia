@@ -1,0 +1,15 @@
+.home-section{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20147.gif');
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--s-xlg);
+}
+
+.home__title{
+    text-align: center;
+    font-size: var(--s-xxlg);
+}

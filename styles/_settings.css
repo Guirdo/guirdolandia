@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap');
+
+:root{
+
+
+    /* Spacing */
+    --s-xs: 8px;
+    --s-sm: 12px;
+    --s-md:16px;
+    --s-lg: 20px;
+    --s-xlg: 28px;
+    --s-xxlg: 36px;
+}

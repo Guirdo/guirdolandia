@@ -2,7 +2,7 @@
     color: black;
     padding: var(--s-md);
     
-    height: 100vh;
+    min-height: 100%;
     background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20188.gif');
 
     border-right: 2px solid black;

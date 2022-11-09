@@ -15,6 +15,7 @@ export default defineConfig({
             input: {
                 main: resolve(root, 'index.html'),
                 home: resolve(root, 'home', 'index.html'),
+                guestbook: resolve(root, 'guestbook', 'index.html'),
             }
         }
     }

@@ -1,0 +1,15 @@
+.not-found-section{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://sadhost.neocities.org/images/tiles/comp020.gif');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--s-xxlg);
+    gap: 80px;
+}
+
+.not-found__title{
+    color: white;
+    font-size: var(--s-xxlg);
+}

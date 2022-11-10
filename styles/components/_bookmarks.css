@@ -1,0 +1,59 @@
+.bookmark-section{
+    width: 100%;
+    min-height: 100%;
+    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20313.gif');
+    color: #17202A;
+}
+
+.bookmark-body{
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-lg);
+    padding: var(--s-xxlg);
+}
+
+.bookmark__title{
+    font-size: var(--s-xxlg);
+    border-radius: var(--s-md);
+    padding: var(--s-sm);
+    text-align: center;
+}
+
+.bookmark__description{
+    font-weight: bold;
+    text-align: center;
+    font-size: var(--s-lg);
+}
+
+.bookmark-grid{
+    display: flex;
+    gap: var(--s-xlg);
+    flex-wrap: wrap;
+}
+
+.bookmark-group{
+    padding: var(--s-md);
+    border-radius: var(--s-sm);
+    border: 2px solid black;
+    background-color: rgba(250, 235, 215, 0.5);
+    width: 320px;
+    align-self: flex-start;
+}
+
+.bookmark-group__title{
+    color: #17202A;
+    margin-bottom: var(--s-md);
+}
+
+.bookmark-list{
+    list-style: square;
+}
+
+.bookmark__item{
+    margin-left: var(--s-md);
+}
+
+.bookmark__link{
+    font-weight: bold;
+    color: blueviolet;
+}

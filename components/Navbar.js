@@ -1,23 +1,51 @@
-
+const navbarItems = [
+    {
+        url: '/home/index.html',
+        label: '🏠Dulce Hogar'
+    },
+    {
+        url: '/blog/index.html',
+        label: '📓Blog'
+    },
+    {
+        url: '/bookmarks/index.html',
+        label: '📑Marcadores'
+    },
+    {
+        url: '/not_found.html',
+        label: '🛰️Miscelanea'
+    },
+    {
+        url: '/not_found.html',
+        label: '🗣️Habla con Screen'
+    },
+    {
+        url: '/guestbook/index.html',
+        label: '🖋️Firma my guestbook'
+    },
+    {
+        url: '/not_found.html',
+        label: '👾Diario de sueños'
+    },
+    {
+        url: '/not_found.html',
+        label: '🤪Sobre mi'
+    },
+]
 
 export default function Navbar() {
 
     return (`
     <nav class="navbar">  
         <ul class="navbar-list">
+            ${navbarItems.map(item => (`
             <li class="navbar__item">
-                <a class="navbar__link" href="/home/index.html">🏠Dulce Hogar</a>
-            </li>
-            <li class="navbar__item">🛰️Miscelanea</li>
-            <li class="navbar__item">📑Marcadores</li>
-            <li class="navbar__item">📚Lecturas</li>
-            <li class="navbar__item">🗣️Habla con Screen</li>
-            <li class="navbar__item">🎵Moosica</li>
-            <li class="navbar__item">
-                <a class="navbar__link" href="/guestbook/index.html">🖋️Firma my guestbook</a>
-            </li>
-            <li class="navbar__item">👾Diario de sueños</li>
-            <li class="navbar__item">🤪Sobre mi</li>
+                <a class="navbar__link" href="${item.url}">
+                    ${item.label}
+                </a>
+            </li>   
+        `)).join('')}
+            
         </ul>
     </nav>
 `)

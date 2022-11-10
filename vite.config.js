@@ -18,13 +18,15 @@ const input = Object.fromEntries(glob.sync('pages/**/*.html').map(file => {
     }
     //The main file
     if (filePathSep[0] === '') {
-        return ['main', fileName]
+        if(basename(file) === 'index'){
+            return ['main', fileName]
+        }
+
+        return[basename(file).substring(0, basename(file).length - extname(file).length),fileName]
     }
 
     return [entryFile, fileName]
 }))
-
-console.log(input)
 
 export default defineConfig({
     root,

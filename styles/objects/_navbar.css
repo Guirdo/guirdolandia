@@ -1,7 +1,7 @@
 .navbar{
     color: black;
     padding: var(--s-md);
-    
+    width: 200px;
     min-height: 100%;
     background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20188.gif');
 

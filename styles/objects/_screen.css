@@ -14,7 +14,8 @@
     background: white;
     color: black;
     border-radius: var(--s-xs);
-    padding: var(--s-sm) 
+    padding: var(--s-sm);
+    font-size: var(--s-lg);
 }
 
 .screen__quote{

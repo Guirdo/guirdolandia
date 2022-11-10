@@ -15,6 +15,9 @@ const input = Object.fromEntries(glob.sync('pages/**/*.html').map(file => {
     if (filePathSep.find(e => e === 'post')) {
         entryFile = basename(file).substring(0, basename(file).length - extname(file).length)
         return [entryFile, fileName]
+    }else if(filePathSep.find(e => e === 'easteregg')){
+        entryFile = basename(file).substring(0, basename(file).length - extname(file).length)
+        return [entryFile, fileName]
     }
     //The main file
     if (filePathSep[0] === '') {

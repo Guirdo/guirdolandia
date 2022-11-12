@@ -1,37 +1,35 @@
-.bookmark-section{
-    width: 100%;
-    min-height: 100%;
+.hyperlink-body{
     background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20313.gif');
-    color: #17202A;
-}
-
-.bookmark-body{
-    display: flex;
-    flex-direction: column;
-    gap: var(--s-lg);
     padding: var(--s-xxlg);
 }
 
-.bookmark__title{
+.hyperlink-section{
+    width: 100%;
+    min-height: 100%;
+    color: #17202A;
+}
+
+.hyperlink__title{
     font-size: var(--s-xxlg);
     border-radius: var(--s-md);
     padding: var(--s-sm);
     text-align: center;
 }
 
-.bookmark__description{
+.hyperlink__description{
     font-weight: bold;
     text-align: center;
     font-size: var(--s-lg);
 }
 
-.bookmark-grid{
+.hyperlink-grid{
     display: flex;
     gap: var(--s-xlg);
     flex-wrap: wrap;
+    margin-block: var(--s-md);
 }
 
-.bookmark-group{
+.hyperlink-group{
     padding: var(--s-md);
     border-radius: var(--s-sm);
     border: 2px solid black;
@@ -40,20 +38,20 @@
     align-self: flex-start;
 }
 
-.bookmark-group__title{
+.hyperlink-group__title{
     color: #17202A;
     margin-bottom: var(--s-md);
 }
 
-.bookmark-list{
+.hyperlink-list{
     list-style: square;
 }
 
-.bookmark__item{
+.hyperlink__item{
     margin-left: var(--s-md);
 }
 
-.bookmark__link{
+.hyperlink__link{
     font-weight: bold;
     color: blueviolet;
 }

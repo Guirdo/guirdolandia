@@ -1,7 +1,7 @@
 .home {
     background-image: url('https://i.ibb.co/SwXH92Z/misc104.jpg');
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 200px auto;
     grid-template-rows: 120px auto;
     gap: var(--s-xxlg);
     padding: var(--s-xxlg) 10%;

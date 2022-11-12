@@ -1,6 +1,6 @@
 const navbarItems = [
     {
-        url: '/home/index.html',
+        url: '/',
         label: '🏠Dulce Hogar'
     },
     {
@@ -8,16 +8,12 @@ const navbarItems = [
         label: '📓Blog'
     },
     {
-        url: '/bookmarks/index.html',
-        label: '📑Marcadores'
+        url: '/hyperlinks/index.html',
+        label: '🔗Hipervinculos'
     },
     {
         url: '/not_found.html',
         label: '🛰️Miscelanea'
-    },
-    {
-        url: '/not_found.html',
-        label: '🗣️Habla con Screen'
     },
     {
         url: '/guestbook/index.html',

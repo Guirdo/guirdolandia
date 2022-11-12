@@ -1,14 +1,10 @@
 import News from '../components/News'
-import '../styles/global.scss'
-import setNavbar from '../utils/setNavbar'
+import '../styles/global.css'
+import renderHomeCommons from '../utils/renderHomeCommons'
 
-setNavbar('aside')
+renderHomeCommons()
 
 document.querySelector('div.home-news').innerHTML = News()
 
-//First easteregg
-const affirmationFrog = document.querySelector('img.home__affirmation-frog')
-affirmationFrog.addEventListener('click',()=> {
-    window.location.href = '/easteregg/affirmation.html'
-})
+
 

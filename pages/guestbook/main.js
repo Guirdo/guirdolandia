@@ -1,5 +1,4 @@
 import '../../styles/global.css'
+import renderHomeCommons from '../../utils/renderHomeCommons'
 
-import setNavbar from '../../utils/setNavbar'
-
-setNavbar()
+renderHomeCommons()

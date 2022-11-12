@@ -1,0 +1,4 @@
+.guestbook-iframe{
+    border-radius: var(--s-md);
+    border: 4px double white;
+}

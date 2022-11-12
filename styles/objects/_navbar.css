@@ -1,0 +1,31 @@
+.navbar{
+    color: white;
+    padding: var(--s-md);
+    width: 200px;
+    min-height: 100%;
+    background-image: url('https://i.ibb.co/nk2Jxpt/multi220.jpg');
+    
+    border-radius: var(--s-sm);
+    border-right: 2px solid black;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-xlg);
+    list-style: none;
+}
+
+.navbar__item{
+    font-size: var(--s-lg);
+    text-align: center;
+}
+
+.navbar__link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar__item:hover{
+    border-bottom: 1px solid black;
+}

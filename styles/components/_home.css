@@ -1,19 +1,44 @@
+.home-body{
+    background-image: url('https://i.ibb.co/SwXH92Z/misc104.jpg');
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 120px auto;
+    gap: var(--s-xxlg);
+    padding: var(--s-xxlg) 10%;
+}
+
+.home-header{
+    border: 4px double white;
+    border-radius: var(--s-sm);
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+    padding-inline: var(--s-xxlg);
+    background-image: url('https://i.ibb.co/SXf2Zjt/misc303.gif');
+}
+
+.home__title{
+    font-size: var(--s-xxxlg);
+    color: white;
+    margin-right: auto;
+}
+
 .home-section{
     width: 100%;
-    height: 100%;
-    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20147.gif');
-
+    background-image: url('https://i.ibb.co/hXdLZ1y/multi068.jpg');
     display: flex;
     flex-direction: column;
     gap: var(--s-xlg);
     align-items: center;
     padding: var(--s-xlg);
+    border: 4px double;
 }
 
-.home__title{
-    text-align: center;
-    font-size: var(--s-xxlg);
+.home-section__title{
+    font-size: var(--s-xxxlg);
+    margin-right: auto;
 }
+
 
 .home-dive{
     display: flex;
@@ -22,7 +47,7 @@
     gap: var(--s-xxlg);
 }
 
-.home-body{
+.home-main{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     gap: var(--s-xlg);
@@ -86,6 +111,7 @@
 }
 
 .home__affirmation-frog{
+    height: 100%;
     -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;

@@ -3,8 +3,9 @@
     padding: var(--s-md);
     width: 200px;
     min-height: 100%;
-    background-image: url('https://bettysgraphics.neocities.org/images/backgrounds/pattern%20188.gif');
-
+    background-image: url('https://i.ibb.co/ZGBkGRY/metal040.gif');
+    
+    border-radius: var(--s-sm);
     border-right: 2px solid black;
 }
 

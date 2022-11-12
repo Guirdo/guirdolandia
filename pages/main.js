@@ -1,5 +1,5 @@
 import News from '../components/News'
-import '../styles/global.css'
+import '../styles/global.scss'
 import setNavbar from '../utils/setNavbar'
 
 setNavbar('aside')

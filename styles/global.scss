@@ -1,0 +1,19 @@
+
+
+@import url('./_settings.scss');
+@import url('./_generics.scss');
+
+/* Effects */
+@import url('./effects/_hover.scss');
+@import url('./effects/_gif.scss');
+
+/* Objects */
+@import url('./objects/_screen.scss');
+@import url('./objects/_navbar.scss');
+
+/* Components */
+@import url('./components/_landing.scss');
+@import url('./components/_home.scss');
+@import url('./components/_guestbook.scss');
+@import url('./components/_not_found.scss');
+@import url('./components/_bookmarks.scss');

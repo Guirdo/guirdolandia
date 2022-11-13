@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap');
 
 :root{
+    /* Colors */
+    --blog-primary: #1E2601;
+    --blog-secondary:#8C7B6C;
+    --blog-info: #5B7327;
+    --blog-light: #D9CDBF;
+    --blog-dark: #0D0D0D;
 
 
     /* Spacing */

@@ -4,11 +4,11 @@ const navbarItems = [
         label: '🏠Dulce Hogar'
     },
     {
-        url: '/blog/index.html',
+        url: '/blog/',
         label: '📓Blog'
     },
     {
-        url: '/hyperlinks/index.html',
+        url: '/hyperlinks/',
         label: '🔗Hipervinculos'
     },
     {
@@ -16,7 +16,7 @@ const navbarItems = [
         label: '🛰️Miscelanea'
     },
     {
-        url: '/guestbook/index.html',
+        url: '/guestbook/',
         label: '🖋️Firma my guestbook'
     },
     {

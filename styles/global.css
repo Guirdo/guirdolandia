@@ -8,9 +8,11 @@
 /* Objects */
 @import url('./objects/_screen.css');
 @import url('./objects/_navbar.css');
+@import url('./objects/_article.css');
 
 /* Components */
 @import url('./components/_home.css');
 @import url('./components/_guestbook.css');
 @import url('./components/_not_found.css');
 @import url('./components/_hyperlink.css');
+@import url('./components/_blog.css');

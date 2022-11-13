@@ -1,0 +1,29 @@
+.article{
+    background-color: var(--blog-light);
+    height: 100%;
+    padding: var(--s-md);
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-sm);
+    font-size: var(--s-lg);
+}
+
+.article p {
+    line-height: 1.9rem;
+}
+
+.article__title{
+    font-size: var(--s-xxlg);
+}
+
+.article__date{
+    font-style: italic;
+    font-size: var(--s-md);
+}
+
+@media (max-width: 960px) {
+    .article{
+        font-size: var(--s-md);
+    }
+}

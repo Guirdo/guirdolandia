@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Guirdolandia | Blog</title>
 </head>
-<body>
-    <header></header>
+
+<body class="blog">
+    <nav class="blog-nav">
+        <ul class="blog-nav-list">
+            <li class="blog-nav__brand">
+                <a href="/blog/" class="blog-nav__link">
+                    Blog de Guirdo
+                </a>
+            </li>
+            <li class="blog-nav__item">
+                <a href="#" class="blog-nav__link">
+                    Archivo
+                </a>
+            </li>
+            <li class="blog-nav__item">
+                <a class="blog-nav__link blog-nav__link--back" href="/">
+                    Regresar
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <header class="blog-header">
+        <img class="blog-header__image" src="https://guirdo.neocities.org/media/bg/thought-river.jpg" />
+    </header>
+
+
     <section class="blog-section">
-        
-        <div class="blog-body">
-            <h1>Mi blog personal</h1>
-            <p>
-                Bienvenido a mi blog personal, aquí encontraras mis más profundo pensamientos que voy construyendo en lo cotidiano, tomando ideas de acá y de por allá y mesclandolas hasta que haya algo que crea que valga la pena compartir.
-            </p>
+        <p>
+            Bienvenido a mi blog personal, que funciona como el rio de mis pensamientos más profundos que alcanzo a
+            expresar de forma escrita. Encontraras mis opiniones, reseñas de mis lecturas o de las películas que he
+            visto, alguno que otro tutorial y lo que se me vaya ocurriendo.
+        </p>
 
-            <div class="blog-list">
-                
-            </div>
-        </div>
+        <h2>Ultimas entradas</h2>
 
-
+        <ul class="blog-list">
+            <li class="blog__item">
+                <a class="blog__link" href="/blog/post/template.html">Primer post que aún no existe</a>
+                <span class="blog__date">2022-11-12</span>
+            </li>
+        </ul>
     </section>
 
     <script type="module" src="./main.js"></script>
 </body>
+
 </html>
